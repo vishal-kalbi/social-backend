@@ -1,6 +1,6 @@
 {
     "builds": [{
-        "src": "api/wsgi.py",
+        "src": "social_app/wsgi.py",
         "use": "@vercel/python",
         "config": { "maxLambdaSize": "15mb", "runtime": "python3.9" }
     },
@@ -16,7 +16,7 @@
         },
         {
             "src": "/(.*)",
-            "dest": "api/wsgi.py"
+            "dest": "social_app/wsgi.py"
         }
     ]
 }

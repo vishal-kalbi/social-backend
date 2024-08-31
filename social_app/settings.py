@@ -30,7 +30,7 @@ SECRET_KEY = 'django-insecure-&hew0gkj&%p_dcpq-kmgon(=xp4m3ix=ilt#kwlxg7co)_5!6o
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ["*"]
+ALLOWED_HOSTS = ["https://social-backend-8nmk-dsdoldltr-vishal-kalbis-projects.vercel.app/", "localhost:8000"]
 
 
 # Application definition
